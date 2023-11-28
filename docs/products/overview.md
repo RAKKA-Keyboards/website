@@ -1,0 +1,28 @@
+---
+showPageInfo: false
+---
+
+# Overview
+
+## HE Keyboards
+
+> HE Keyboards are keyboards that use hall effect switches.
+
+- [PomPomBoard](./pompomboard.html) - 8 keys HE pad
+
+## HE DIY Kit
+
+- [H60 & H64 DIY Kit](./60-diy-kit.html) - 60/64 layout PCB, compatible with GH60 case
+
+## Key features
+
+All our HE keyboards have the following features:
+
+- Polling rate 8000Hz
+- Ultra-low latency
+- Adjustable key travel
+- High linearity, the detected distance is close to the physical distance
+- No hidden deadzone
+- Rapid Trigger
+- All functions and settings are on board, no "driver" needed to install
+- Support firmware upgrade
