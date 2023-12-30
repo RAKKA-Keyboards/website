@@ -6,7 +6,7 @@ export default {
             text: "Products",
             children: [
                 {text: "PomPomBoard", link: "/docs/products/pompomboard"},
-                {text: "H60 DIY Kit", link: "/docs/products/60-diy-kit"},
+                {text: "RAKKA 60 Origin", link: "/docs/products/60-origin"},
             ],
         },
         {
@@ -25,11 +25,7 @@ export default {
             },
             {
                 text: "HE keyboards",
-                children: ["pompomboard"],
-            },
-            {
-                text: "HE DIY Kit",
-                children: ["60-diy-kit"],
+                children: ["pompomboard", "60-origin"],
             }
         ]
     }

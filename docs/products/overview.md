@@ -9,10 +9,7 @@ showPageInfo: false
 > HE Keyboards are keyboards that use hall effect switches.
 
 - [PomPomBoard](./pompomboard.html) - 8 keys HE pad
-
-## HE DIY Kit
-
-- [H60 & H64 DIY Kit](./60-diy-kit.html) - 60/64 layout PCB, compatible with GH60 case
+- [RAKKA 60 Origin](./60-origin.html) - 60/64 layout keyboard
 
 ## Key features
 

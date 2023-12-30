@@ -4,3 +4,6 @@
 .vuepress/dist-cn
 node_modules
 .idea
+
+*.sh
+*.ps1

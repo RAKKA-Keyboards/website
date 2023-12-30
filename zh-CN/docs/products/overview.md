@@ -9,10 +9,7 @@ showPageInfo: false
 > 磁轴键盘是使用磁轴的键盘。
 
 - [PomPomBoard](./pompomboard.html) - 8 键磁轴小键盘
-
-## 磁轴 DIY 套装
-
-- [H60 & H64 DIY 套装](./60-diy-kit.html) - 60/64 配列 PCB，兼容 GH60 外壳
+- [RAKKA 60 Origin](./60-origin.html) - 60/64 配列键盘
 
 ## 主要特征
 

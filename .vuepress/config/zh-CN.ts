@@ -6,7 +6,7 @@ export default {
             text: "产品",
             children: [
                 {text: "PomPomBoard", link: "/zh-CN/docs/products/pompomboard.html"},
-                {text: "H60 DIY Kit", link: "/zh-CN/docs/products/60-diy-kit.html"},
+                {text: "RAKKA 60 Origin", link: "/docs/products/60-origin"},
             ],
         },
         {
@@ -26,11 +26,7 @@ export default {
             },
             {
                 text: "磁轴键盘",
-                children: ["pompomboard"],
-            },
-            {
-                text: "磁轴 DIY 套装",
-                children: ["60-diy-kit"],
+                children: ["pompomboard", "60-origin"],
             }
         ],
         "/zh-CN/docs/configurator/": [
