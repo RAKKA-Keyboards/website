@@ -71,6 +71,8 @@ If not assembled correctly, it will lead to inaccurate distance detection and ev
 
    :::
 
-   Open [kb.rakka.cn](https://kb.rakka.cn) or [kb.rakka.dev](https://kb.rakka.dev) (non-domestic), connect to the keyboard, switch to the debugging tab, and press each key individually to see if the distance detection is normal. Pressing to the end should be 4.10mm (or close to 4.10mm, taking into account that there is a tolerance for magnetizing the magnets in the switch). ** Readings below 4.0 should be considered a possible installation error. **.
+   Open [kb.rakka.cn](https://kb.rakka.cn) (CN) or [kb.rakka.dev](https://kb.rakka.dev) (outside mainland China), connect to the keyboard, switch to the debugging tab, and press each key individually to see if the distance detection is normal. For Gateron KS-20 White which has 4.1 total travel, pressing to the end should be 4.10mm (or close to 4.10mm, taking into account that there is a tolerance for magnetizing the magnets in the switch).
+
+   **Readings below 4.0 definitely should be considered a possible installation error**.
 
 8. Installation of keycaps, installation into the case
