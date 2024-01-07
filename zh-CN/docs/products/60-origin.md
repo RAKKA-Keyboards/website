@@ -1,14 +1,12 @@
 # RAKKA 60 Origin
 
-RAKKA 60 Origin 是我们首款完整佩列的成品键盘。提供标准 60 和左移 64 两种配列可选。搭载佳达隆磁玉轴。官方组装，杜绝组装问题导致距离检测不准确。
+RAKKA 60 Origin 是我们首款完整佩列的预组装套件，即用户只需要自行购买和安装键帽后即可使用。提供标准 60 和左移 64 两种配列可选。搭载佳达隆磁玉轴。官方组装，杜绝组装问题导致距离检测不准确。
 
 > RAKKA 60 曾以 DIY 套装的方式销售过。但是出现了太多组装问题，不少新手用户甚至损坏了 PCB 板，故本次暂不销售 DIY 套装。
 
-![Keyboard image](/rakka-60-origin/DSCF8908.png)
+![Keyboard image](/rakka-60-origin/DSCF8924.png)
 
-![Keyboard image](/rakka-60-origin/DSCF8937.png)
-
-![Keyboard image](/rakka-60-origin/DSCF8939.png)
+![Keyboard image](/rakka-60-origin/DSCF8933.png)
 
 ![Configuration webpage](/web/remap.png)
 
@@ -16,9 +14,9 @@ RAKKA 60 Origin 是我们首款完整佩列的成品键盘。提供标准 60 和
 
 ## 声明
 
-::: info 声明
+::: warning 声明
 
-TAKKA 60 不是我们直属的产品！
+TAKKA 60 **不是**我们直属的产品！
 
 我们的键盘对组装的要求不低。在文末可用找到安装指南。
 
@@ -33,6 +31,14 @@ TAKKA 60 不是我们直属的产品！
 中国：<https://shop.rakka.cn/admin/products/96621/>
 
 海外（如果淘宝官方转运可用，请联系客服改价） ：<https://item.taobao.com/item.htm?id=759344809128>
+
+### 更新
+
+#### 2024/01/03
+
+- 因为键帽供应商问题，键帽取消，价格降低
+
+  最终发货的产品仍然是预组装的，但是需要用户自行准备和安装键帽。
 
 ### 发货时间
 

@@ -1,14 +1,12 @@
 # RAKKA 60 Origin
 
-RAKKA 60 Origin is our first pre-built keyboard with a full layout. It is available in both 60 and 64 layout. It is equipped with Gatoron Magnetic Jade switch (Gateron KS-20T). Officially assembled to eliminate inaccurate distance detection due to assembly issues.
+RAKKA 60 Origin is our first pre-built kit (user only needs to prepare and install the keycaps) with a full layout. It is available in both 60 and 64 layout. It is equipped with Gatoron Magnetic Jade switch (Gateron KS-20T). Officially assembled to eliminate inaccurate distance detection due to assembly issues.
 
 > The RAKKA 60 was once sold as a DIY kit. However, there were too many assembly problems, and many novice users even damaged the PCB board, so the DIY kit is not available for sale this time.
 
-![Keyboard image](/rakka-60-origin/DSCF8908.png)
+![Keyboard image](/rakka-60-origin/DSCF8924.png)
 
-![Keyboard image](/rakka-60-origin/DSCF8937.png)
-
-![Keyboard image](/rakka-60-origin/DSCF8939.png)
+![Keyboard image](/rakka-60-origin/DSCF8933.png)
 
 ::: info Info
 
@@ -22,7 +20,7 @@ The webpage has English version
 
 ## Disclaimer
 
-::: info Disclaimer
+::: warning Disclaimer
 
 TAKKA 60 by KBDfans is **NOT** our direct product!
 
@@ -38,7 +36,16 @@ If not assembled correctly, it will lead to inaccurate distance detection and ev
 
 China: <https://shop.rakka.cn/admin/products/96621/>
 
-Outside mainland China (Taobao provides forwarding services for some locations; ask the customer support to change the price): <https://item.taobao.com/item.htm?id=759344809128>
+Outside mainland China (Taobao provides forwarding services for some locations): <https://item.taobao.com/item.htm?id=759344809128>
+
+
+### Update
+
+#### 2024/01/03
+
+- Due to the keycap supplier issue, the keycaps are cancelled, and the price is reduced
+  
+  The shipped product is stilled pre-assembled, but only requires the user to prepare and install the keycaps 
 
 ### Delivery time
 
