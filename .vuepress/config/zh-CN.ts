@@ -6,7 +6,7 @@ export default {
             text: "产品",
             children: [
                 {text: "PomPomBoard", link: "/zh-CN/docs/products/pompomboard.html"},
-                {text: "RAKKA 60 Origin", link: "/docs/products/60-origin"},
+                {text: "RAKKA 60 Origin", link: "/zh-CN/docs/products/60-origin"},
             ],
         },
         {

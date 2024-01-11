@@ -34,7 +34,7 @@ If not assembled correctly, it will lead to inaccurate distance detection and ev
 
 ## Purchase
 
-China: <https://shop.rakka.cn/admin/products/96621/>
+China: <https://shop.rakka.cn/products/rakka-60>
 
 Outside mainland China (Taobao provides forwarding services for some locations): <https://item.taobao.com/item.htm?id=759344809128>
 

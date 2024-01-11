@@ -28,9 +28,9 @@ TAKKA 60 **不是**我们直属的产品！
 
 ## 购买
 
-中国：<https://shop.rakka.cn/admin/products/96621/>
+中国：<https://shop.rakka.cn/products/rakka-60>
 
-海外（如果淘宝官方转运可用，请联系客服改价） ：<https://item.taobao.com/item.htm?id=759344809128>
+海外（如果淘宝官方转运可用） ：<https://item.taobao.com/item.htm?id=759344809128>
 
 ### 更新
 
