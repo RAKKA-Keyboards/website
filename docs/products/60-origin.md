@@ -134,7 +134,7 @@ Black ENIG FR4 plate (compatible with PCB-mount stabilizers)
 > I really don't know how to translate them
 
 - 夹心棉 (Between PCB and plate)
-- “轴座棉” (Foam with holes cut out according to the components on the back of the PCB, mounted between the PCB and the case foam, to fully fill the gaps)
+- "轴座棉" (Foam with holes cut out according to the components on the back of the PCB, mounted between the PCB and the case foam, to fully fill the gaps)
 - Case foam
 
 Since adding an under-switch foam while maintaining a 3.5mm spacing between the PCB and the positioning plate will inevitably result in inconsistencies in the degree of compression of the under-switch foam for each key, resulting in a shift between the key travel detection and the actual key travel, the current generation of the product is not paired with an under-switch foam.
@@ -160,3 +160,60 @@ The surface of the shell has no knife lines, no sand holes, no bumps, no color l
 ### Firmware
 
 <https://drive.google.com/drive/folders/16oWU3LX3uJv9fVTtH_3yXZEAipBdagES>
+
+## Firmware changelog
+
+### 0.12.0 (2024-02-03)
+
+- Allows the "Dynamic trigger travel" and "Dynamic reset travel" of the Rapid trigger mode to be adjusted to a minimum of 0.04mm (note that more extreme options are only recommended for use on more stable switches)
+
+### 0.11.2 (2024-01-27)
+
+> This version is the factory firmware for the January 2024 batch
+
+- Continue to adjust the auto-calibration strategy, now it is turned on by default (include upgrading from older versions)
+- Adjust the curve for "GATERON Magnetic Jade switch (KS-20T)"
+- Reduces the time spent on calculations, which theoretically reduces latency
+
+### 0.10.0 (2023-12-20)
+
+- Adjust the auto-calibration strategy (but it is still turned off by default)
+- Allows selection of installed switches at the entire keyboard level
+
+### 0.9.5 (2023-12-14)
+
+- Fix the problem that holding "Layer Tap", "Mod Tap" key, then press another key, long press key is not triggered as excepted
+
+### 0.9.4 (2023-12-14)
+
+- Fixed the problem that under extreme settings, the key may still be triggered even if the key is released
+
+Explanation:
+Suppose 0.1mm trigger and 0.1mm reset is set. If the distance when the key is not pressed has shifted slightly for any reason, e.g. to 0.02mm or 0.04mm, then the key will not be reset because the key needs to go back to 0.00mm before it can be reset.
+This fix does not address cases where the distance has shifted more when the key was not pressed (e.g. the distance reading was more than 0.1mm when it was not pressed).
+
+### 0.9.1 (2023-12-13)
+
+- Fix pressing multiple "tap hold" key will cause fault of the keyboard
+(This feature may need more fixes later)
+
+### 0.9.0 (2023-12-13)
+
+- Support "Mod Tap" (tap=keycode, hold=modifier) ("Layer Tap" is supported from the beginning)
+- Support tap and hold with different keycode
+- Fix the problem that all tap key from "tap hold" keys cannot be long pressed
+- Change the behavior of Layer Tap, now the layer change is activated once there is another key is pressed
+
+Note that due to it requiring some time to check if it is tapped rather than long pressed, the "tap" key cannot be triggered immediately after you press the key.
+
+### 0.8.0 (2023-12-09)
+
+- New auto calibration strategy
+- Auto calibration is disabled by default, enable it in "Debug" tab
+- Add "Recalibrate" key ("Keymap"-"Extra"-"Calibrate"), bind it to any key you want, press it to redo the calibration step (same with "Reinitialize" in "Debug" tab)
+
+### 0.7.0 (2023-12-08)
+
+- Trying to avoid the problem of distance errors caused by pressing buttons when power-on calibration
+- Introduce auto calibration
+- Solve an internal array out-of-bounds access bug (x_x)
