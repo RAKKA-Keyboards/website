@@ -163,6 +163,10 @@ The surface of the shell has no knife lines, no sand holes, no bumps, no color l
 
 ## Firmware changelog
 
+### 0.12.1 (2024-02-28)
+
+- Allow set "Tap" key as a modifier key for "Tap Hold" keys
+
 ### 0.12.0 (2024-02-03)
 
 - Allows the "Dynamic trigger travel" and "Dynamic reset travel" of the Rapid trigger mode to be adjusted to a minimum of 0.04mm (note that more extreme options are only recommended for use on more stable switches)
