@@ -163,8 +163,11 @@ The surface of the shell has no knife lines, no sand holes, no bumps, no color l
 
 ## Firmware changelog
 
-### 0.13.1（2024-03-23）
+### 0.13.2（2024-03-23）
 
+> This version of the firmware requires the latest version of the web page. If the web page is opened earlier, it will be stuck in "Communicating with the device". Please refresh.
+
+- Standalone key mapping: Allow users to choose whether non-0 profiles have independent key binding settings
 - Force CapsLock LED color when profile is not 0
 
   - Profile 1: Forced to magenta
