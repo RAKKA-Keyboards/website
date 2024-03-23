@@ -163,6 +163,22 @@ The surface of the shell has no knife lines, no sand holes, no bumps, no color l
 
 ## Firmware changelog
 
+### 0.13.1（2024-03-23）
+
+- Force CapsLock LED color when profile is not 0
+
+  - Profile 1: Forced to magenta
+  - Profile 2: Forced to green
+  - Profile 3: Force to light blue
+  - Profile 0: Off, purple when Caps Lock is on
+  - Currently, no custom settings are supported, as well as this behavior cannot be turned off.
+
+- Significantly reduce the firmware size and internal memory usage, leaving more space for future updates
+
+### 0.12.2（2024-03-01）
+
+- Very slightly improved performance
+
 ### 0.12.1 (2024-02-28)
 
 - Allow set "Tap" key as a modifier key for "Tap Hold" keys
