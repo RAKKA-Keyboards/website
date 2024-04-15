@@ -6,7 +6,13 @@ export default {
             text: "产品",
             children: [
                 {text: "PomPomBoard", link: "/zh-CN/docs/products/pompomboard.html"},
-                {text: "RAKKA 60 Origin", link: "/zh-CN/docs/products/60-origin"},
+                {text: "RAKKA 60 Origin", link: "/zh-CN/docs/products/60-origin.html"},
+            ],
+        },
+        {
+            text: "更新日志",
+            children: [
+                {text: "RAKKA 60", link: "/zh-CN/docs/changelog/rakka-60.html"},
             ],
         },
         {
@@ -41,6 +47,12 @@ export default {
             {
                 text: "配置文件",
                 children: ["/zh-CN/docs/configurator/profile/overview"],
+            },
+        ],
+        "/zh-CN/docs/changelog/": [
+            {
+                text: "产品",
+                children: ["/zh-CN/docs/changelog/rakka-60"],
             },
         ]
     }

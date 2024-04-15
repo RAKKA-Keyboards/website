@@ -10,6 +10,12 @@ export default {
             ],
         },
         {
+            text: "Changelog",
+            children: [
+                {text: "RAKKA 60", link: "/docs/changelog/rakka-60.html"},
+            ],
+        },
+        {
             text: "Kb configurator",
             children: [
                 {text: "Open", link: variant == "cn" ? "https://kb.rakka.cn/" : "https://kb.rakka.dev/"},
@@ -27,6 +33,12 @@ export default {
                 text: "HE keyboards",
                 children: ["pompomboard", "60-origin"],
             }
+        ],
+        "/docs/changelog/": [
+            {
+                text: "Products",
+                children: ["/docs/changelog/rakka-60"],
+            },
         ]
     }
 }
