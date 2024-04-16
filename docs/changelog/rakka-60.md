@@ -6,9 +6,15 @@
 
   Dynamic lighting is a new feature of Windows 11 23H2, which allows you to control all supported keyboards, mice, and
   other peripherals in Windows settings or third-party control programs (Including but not limited to Armory Crate from ASUS)
-- to achieve a unified lighting style.
+  to achieve a unified lighting style.
 
   See [Microsoft support page](https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2).
+
+  ::: tip Tip
+
+  If your system version is Windows 11 23H2 or higher, this feature is enabled by default. Therefore, you will find the CapsLock LED is always on. If you don't need it, you can find the "Dynamic Lighting" option in Windows settings and turn it off for the keyboard.
+
+  :::
 
 - Change the strategy for triggering the CapsLock indicator light when the Profile changes
 
