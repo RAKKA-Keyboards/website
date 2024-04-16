@@ -5,7 +5,8 @@
 - Support Windows Dynamic Lighting (although this keyboard only has one LED -_-)
 
   Dynamic lighting is a new feature of Windows 11 23H2, which allows you to control all supported keyboards, mice, and
-  other peripherals in Windows settings or third-party control programs to achieve a unified lighting style.
+  other peripherals in Windows settings or third-party control programs (Including but not limited to Armory Crate from ASUS)
+- to achieve a unified lighting style.
 
   See [Microsoft support page](https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2).
 
@@ -110,3 +111,7 @@ triggered immediately after you press the key.
 - Trying to avoid the problem of distance errors caused by pressing buttons when power-on calibration
 - Introduce auto calibration
 - Solve an internal array out-of-bounds access bug (x_x)
+
+#### Declaration
+
+Trademark declaration: The product names mentioned on this website are for identification purposes only, and these names may be registered trademarks or copyrights of other companies.
