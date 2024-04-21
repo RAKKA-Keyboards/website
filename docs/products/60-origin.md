@@ -139,14 +139,6 @@ Black ENIG FR4 plate (compatible with PCB-mount stabilizers)
 
 Since adding an under-switch foam while maintaining a 3.5mm spacing between the PCB and the positioning plate will inevitably result in inconsistencies in the degree of compression of the under-switch foam for each key, resulting in a shift between the key travel detection and the actual key travel, the current generation of the product is not paired with an under-switch foam.
 
-### Keycaps
-
-Cherry profile keycaps, black/orange/gray color.
-
-### Case QC standard
-
-The surface of the shell has no knife lines, no sand holes, no bumps, no color loss, no scratches longer than 1mm. Slight internal knife lines, hanging points belong to the normal acceptance criteria range of technology. If you can not accept, please do not buy.
-
 ## Resources
 
 ### Installation guide
@@ -164,3 +156,28 @@ The surface of the shell has no knife lines, no sand holes, no bumps, no color l
 ## Firmware changelog
 
 [Changelog](../changelog/rakka-60.html)
+
+## Solution for firmware upgrade failure
+
+### If the CapsLock light is always on
+
+This means that the device is in recovery mode at this time, and you only need to upgrade the firmware again. The only thing to note is that you need to select the "Device is already in recovery mode" option during the upgrade process.
+
+### If USB is not recognized
+
+Hold the Bootloader button on the back of the PCB and plugin the USB. The device will enter recovery mode again. At this time, you can upgrade the firmware again.
+
+> If the last firmware upgrade was not completed, the device will enter recovery mode the next time it is powered on.
+> If the Bootloader button on the back of the PCB is pressed at this time, the device will think that the upgrade has been successful, but in fact it has not been completed, resulting in a "brick" .
+
+## The function of the buttons on the back of PCB
+
+- Reset
+
+  Simply restarting the device.
+
+- Bootloader
+
+  When the device is disconnected, hold this button while plugin the USB cable, the device will enter recovery mode.
+
+  When the device is in recovery mode, click this button to exit recovery mode.
