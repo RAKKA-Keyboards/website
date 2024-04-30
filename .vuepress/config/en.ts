@@ -12,6 +12,7 @@ export default {
         {
             text: "Changelog",
             children: [
+                {text: "Configurator", link: "/docs/changelog/configurator.html"},
                 {text: "RAKKA 60", link: "/docs/changelog/rakka-60.html"},
             ],
         },
@@ -35,6 +36,10 @@ export default {
             }
         ],
         "/docs/changelog/": [
+            {
+                text: "Configurator",
+                children: ["/docs/changelog/configurator"],
+            },
             {
                 text: "Products",
                 children: ["/docs/changelog/rakka-60"],

@@ -12,6 +12,7 @@ export default {
         {
             text: "更新日志",
             children: [
+                {text: "配置器", link: "/zh-CN/docs/changelog/configurator.html"},
                 {text: "RAKKA 60", link: "/zh-CN/docs/changelog/rakka-60.html"},
             ],
         },
@@ -50,6 +51,10 @@ export default {
             },
         ],
         "/zh-CN/docs/changelog/": [
+            {
+                text: "配置器",
+                children: ["/zh-CN/docs/changelog/configurator"],
+            },
             {
                 text: "产品",
                 children: ["/zh-CN/docs/changelog/rakka-60"],
