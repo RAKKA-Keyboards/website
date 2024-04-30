@@ -1,6 +1,11 @@
 # RAKKA 60/64
 
-### 0.15.0（2024-04-16）
+### 0.15.1O (2024-05-01)
+
+- Reduce the memory usage inside the keyboard AGAIN™, leaving more space for future updates
+- Improved response speed (reduced latency)
+
+### 0.15.0 (2024-04-16)
 
 - Support Windows Dynamic Lighting (although this keyboard only has one LED -_-)
 
@@ -27,11 +32,11 @@
 
 - Fix the problem that the NKRO toggle does not work
 
-### 0.14.0（2024-04-03）
+### 0.14.0 (2024-04-03)
 
 - Reduce the memory usage inside the keyboard further, leaving more space for future updates
 
-### 0.13.2（2024-03-23）
+### 0.13.2 (2024-03-23)
 
 > This version of the firmware requires the latest version of the web page. If the web page is opened earlier, it will
 > be stuck in "Communicating with the device". Please refresh.
@@ -47,7 +52,7 @@
 
 - Significantly reduce the firmware size and internal memory usage, leaving more space for future updates
 
-### 0.12.2（2024-03-01）
+### 0.12.2 (2024-03-01)
 
 - Very slightly improved performance
 
