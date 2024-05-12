@@ -151,6 +151,8 @@ Since adding an under-switch foam while maintaining a 3.5mm spacing between the 
 
 ### Firmware
 
+> Firmware updates can now be done directly on the web, no need to manually download files.
+
 <https://drive.google.com/drive/folders/16oWU3LX3uJv9fVTtH_3yXZEAipBdagES>
 
 ## Firmware changelog

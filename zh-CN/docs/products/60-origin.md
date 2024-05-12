@@ -131,6 +131,8 @@ TAKKA 60 **不是**我们直属的产品！
 
 ### 固件
 
+> 固件更新现在可以在网页上直接进行，无需手动下载文件。
+
 国内: <https://docs.qq.com/doc/DWlFJbGFPbmRCYVhr>
 
 海外（Google Drive）: <https://drive.google.com/drive/folders/16oWU3LX3uJv9fVTtH_3yXZEAipBdagES>
