@@ -1,6 +1,10 @@
 # RAKKA 60/64
 
-### 0.15.1O (2024-05-01)
+### 0.15.6（2024-05-07）
+
+- Fix old bugs introduced from 0.15.1
+
+### 0.15.1 (2024-05-01)
 
 - Reduce the memory usage inside the keyboard AGAIN™, leaving more space for future updates
 - Improved response speed (reduced latency)
