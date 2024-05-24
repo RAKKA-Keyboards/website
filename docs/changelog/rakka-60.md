@@ -1,6 +1,14 @@
 # RAKKA 60/64
 
-### 0.15.6（2024-05-07）
+### 0.15.7 (2024-05-24)
+
+- Fix the problem that the toggling "Standalone key mapping" option does not take effect immediately (you need to switch to another profile and then switch back to take effect)
+- Add some keys to switch profiles
+  - `↔ PF`: Switch between the current profile and the last switched profile
+  - `↔ PF0`: Switch between the current profile and profile 0
+  - `→ PF` `← PF`: Cycle through profiles in forward and reverse order
+
+### 0.15.6 (2024-05-07)
 
 - Fix old bugs introduced from 0.15.1
 
