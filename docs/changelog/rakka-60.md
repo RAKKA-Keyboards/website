@@ -1,5 +1,9 @@
 # RAKKA 60/64
 
+### 0.15.8 (2024-05-25)
+
+- Fix the problem that version 0.15.7 breaks layout detection accidentally
+
 ### 0.15.7 (2024-05-24)
 
 - Fix the problem that the toggling "Standalone key mapping" option does not take effect immediately (you need to switch to another profile and then switch back to take effect)
