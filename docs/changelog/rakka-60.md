@@ -1,5 +1,18 @@
 # RAKKA 60/64
 
+### 0.16.0（2024-07-11）
+
+- Modify the key sending related parts, which could solve various strange problems
+- Support choosing different switch for different keys
+- Support modifying profile name
+- More options for the only LED of the keyboard -_-
+
+::: warning
+
+This version contains many other internal changes. Before it is confirmed to be stable, users who do not know how to roll back the version are not recommended to update.
+
+:::
+
 ### 0.15.8 (2024-05-25)
 
 - Fix the problem that version 0.15.7 breaks layout detection accidentally

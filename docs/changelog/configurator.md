@@ -1,5 +1,9 @@
 # RAKKA Keyboard Configurator
 
+### 2024-07-11
+
+- New "Lighting" tab
+
 ### 2024-05-24
 
 - Remake the "Performance" tab, prepare for future features
