@@ -38,14 +38,18 @@
 
 - 支持 Windows Dynamic Lighting（虽然这个键盘只有一个 LED -_-）
 
+  ::: tip 什么是 Windows Dynamic Lighting？
+
   动态照明是 Windows 11 23H2 的新功能，它允许您在 Windows 设置或第三方控制程序（包括但不限于华硕 Armoury Crate）中统一控制所有支持的键盘、鼠标等外设，以达到统一的灯效风格。
 
   请参阅 [Microsoft 支持页面](https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%8A%A8%E6%80%81%E7%85%A7%E6%98%8E%E8%AE%BE%E5%A4%87-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2)。
+ 
+  :::
 
-  ::: tip 提示
+  ::: tip 如何关闭 CapsLock LED？
 
   如果您的系统版本是 Windows 11 23H2 或更高版本，这个功能是默认打开的。因此您会发现 CapsLock LED 常亮。若不需要，您可以在 Windows 设置中找到“动态照明”选项，然后为键盘关闭它。
-  
+
   :::
 
 - 改变配置文件变化触发 CapsLock 指示灯的策略

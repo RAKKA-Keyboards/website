@@ -1,7 +1,7 @@
-.vuepress/.cache
-.vuepress/.temp
-.vuepress/dist
-.vuepress/dist-cn
+.vitepress/cache
+.vitepress/dist
+.vitepress/dist-cn
+.vuepress
 node_modules
 .idea
 
