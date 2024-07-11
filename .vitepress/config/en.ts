@@ -16,7 +16,7 @@ export const en = defineConfig({
         },
 
         editLink: {
-            pattern: 'https://github.com/RAKKA-Keyboards/website/:path',
+            pattern: 'https://github.com/RAKKA-Keyboards/website/edit/master/:path',
             text: 'Edit this page on GitHub'
         },
 
