@@ -1,6 +1,10 @@
 # RAKKA 60/64
 
-### 0.16.0（2024-07-11）
+### 0.16.1 (2024-07-11)
+
+- Reset all settings automatically if any key is bound to an invalid keycode
+
+### 0.16.0 (2024-07-11)
 
 - Modify the key sending related parts, which could solve various strange problems
 - Support choosing different switch for different keys
