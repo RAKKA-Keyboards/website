@@ -1,5 +1,11 @@
 # RAKKA 60/64
 
+### 0.16.2 (2024-07-19)
+
+- Fix the problem that auto-calibration does not work properly since version 0.16.0
+- Auto-calibration is now forced to be turned on, regardless of the switch on the web page
+- Slightly adjust the strategy of auto-calibration
+
 ### 0.16.1 (2024-07-11)
 
 - Reset all settings automatically if any key is bound to an invalid keycode
