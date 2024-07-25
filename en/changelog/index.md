@@ -1,16 +1,39 @@
-# RAKKA 60/64
+# Changelog
 
-### 0.16.2 (2024-07-19)
+If not otherwise noted, changes apply to all devices.
+
+## v0.17.0 <Badge type="danger" text="nightly" />
+
+> Released at 2024-07-25
+
+- A new way to handle keys that affect each other
+- Fix the problem where abnormal keys were sent when NKRO was manually disabled
+- Fix a problem with dynamic trigger distance being set very high (although it's unlikely anyone would actually set it that high)
+- The first change will inevitably consume computing power, but this update also includes other changes to improve responsiveness
+
+::: info
+
+If this update reaches stability, it will be worth making the major version number "1".
+
+:::
+
+## v0.16.3 <Badge type="warning" text="dev" />
+
+> Released at 2024-07-19
 
 - Fix the problem that auto-calibration does not work properly since version 0.16.0
 - Auto-calibration is now forced to be turned on, regardless of the switch on the web page
 - Slightly adjust the strategy of auto-calibration
 
-### 0.16.1 (2024-07-11)
+## v0.16.1
+
+> Released at 2024-07-11
 
 - Reset all settings automatically if any key is bound to an invalid keycode
 
-### 0.16.0 (2024-07-11)
+## v0.16.0
+
+> Released at 2024-07-11
 
 - Modify the key sending related parts, which could solve various strange problems
 - Support choosing different switch for different keys
@@ -23,28 +46,38 @@ This version contains many other internal changes. Before it is confirmed to be 
 
 :::
 
-### 0.15.8 (2024-05-25)
+## v0.15.8
+
+> Released at 2024-05-25
 
 - Fix the problem that version 0.15.7 breaks layout detection accidentally
 
-### 0.15.7 (2024-05-24)
+## v0.15.7
+
+> Released at 2024-05-24
 
 - Fix the problem that the toggling "Standalone key mapping" option does not take effect immediately (you need to switch to another profile and then switch back to take effect)
 - Add some keys to switch profiles
-  - `↔ PF`: Switch between the current profile and the last switched profile
-  - `↔ PF0`: Switch between the current profile and profile 0
-  - `→ PF` `← PF`: Cycle through profiles in forward and reverse order
+    - `↔ PF`: Switch between the current profile and the last switched profile
+    - `↔ PF0`: Switch between the current profile and profile 0
+    - `→ PF` `← PF`: Cycle through profiles in forward and reverse order
 
-### 0.15.6 (2024-05-07)
+## v0.15.6 <Badge type="tip" text="stable" />
+
+> Released at 2024-05-07
 
 - Fix old bugs introduced from 0.15.1
 
-### 0.15.1 (2024-05-01)
+## v0.15.1
+
+> Released at 2024-05-01
 
 - Reduce the memory usage inside the keyboard AGAIN™, leaving more space for future updates
 - Improved response speed (reduced latency)
 
-### 0.15.0 (2024-04-16)
+## v0.15.0
+
+> Released at 2024-04-16
 
 - Support Windows Dynamic Lighting (although this keyboard only has one LED -_-)
 
@@ -66,8 +99,8 @@ This version contains many other internal changes. Before it is confirmed to be 
 
 - Change the strategy for triggering the CapsLock indicator light when the Profile changes
 
-  - The indicator light is only forced to turn on for 3 seconds
-  - After that, the indicator light which has color changed will only turn on when CapsLock is on
+    - The indicator light is only forced to turn on for 3 seconds
+    - After that, the indicator light which has color changed will only turn on when CapsLock is on
 
 - Fix non-English characters (e.g. `￥｜`, Japanese Yen Symbol) not working
 
@@ -75,11 +108,15 @@ This version contains many other internal changes. Before it is confirmed to be 
 
 - Fix the problem that the NKRO toggle does not work
 
-### 0.14.0 (2024-04-03)
+## v0.14.0
+
+> Released at 2024-04-03
 
 - Reduce the memory usage inside the keyboard further, leaving more space for future updates
 
-### 0.13.2 (2024-03-23)
+## v0.13.2
+
+> Released at 2024-03-23
 
 > This version of the firmware requires the latest version of the web page. If the web page is opened earlier, it will
 > be stuck in "Communicating with the device". Please refresh.
@@ -95,20 +132,28 @@ This version contains many other internal changes. Before it is confirmed to be 
 
 - Significantly reduce the firmware size and internal memory usage, leaving more space for future updates
 
-### 0.12.2 (2024-03-01)
+## v0.12.2
+
+> Released at 2024-03-01
 
 - Very slightly improved performance
 
-### 0.12.1 (2024-02-28)
+## v0.12.1
+
+> Released at 2024-02-28
 
 - Allow set "Tap" key as a modifier key for "Tap Hold" keys
 
-### 0.12.0 (2024-02-03)
+## v0.12.0
+
+> Released at 2024-02-03
 
 - Allows the "Dynamic trigger travel" and "Dynamic reset travel" of the Rapid trigger mode to be adjusted to a minimum
   of 0.04mm (note that more extreme options are only recommended for use on more stable switches)
 
-### 0.11.2 (2024-01-27)
+## v0.11.2
+
+> Released at 2024-01-27
 
 > This version is the factory firmware for the January 2024 batch
 
@@ -117,17 +162,23 @@ This version contains many other internal changes. Before it is confirmed to be 
 - Adjust the curve for "GATERON Magnetic Jade switch (KS-20T)"
 - Reduces the time spent on calculations, which theoretically reduces latency
 
-### 0.10.0 (2023-12-20)
+## v0.10.0
+
+> Released at 2023-12-20
 
 - Adjust the auto-calibration strategy (but it is still turned off by default)
 - Allows selection of installed switches at the entire keyboard level
 
-### 0.9.5 (2023-12-14)
+## v0.9.5
+
+> Released at 2023-12-14
 
 - Fix the problem that holding "Layer Tap", "Mod Tap" key, then press another key, long press key is not triggered as
   excepted
 
-### 0.9.4 (2023-12-14)
+## v0.9.4
+
+> Released at 2023-12-14
 
 - Fixed the problem that under extreme settings, the key may still be triggered even if the key is released
 
@@ -138,12 +189,16 @@ can be reset.
 This fix does not address cases where the distance has shifted more when the key was not pressed (e.g. the distance
 reading was more than 0.1mm when it was not pressed).
 
-### 0.9.1 (2023-12-13)
+## v0.9.1
+
+> Released at 2023-12-13
 
 - Fix pressing multiple "tap hold" key will cause fault of the keyboard
   (This feature may need more fixes later)
 
-### 0.9.0 (2023-12-13)
+## v0.9.0
+
+> Released at 2023-12-13
 
 - Support "Mod Tap" (tap=keycode, hold=modifier) ("Layer Tap" is supported from the beginning)
 - Support tap and hold with different keycode
@@ -153,14 +208,18 @@ reading was more than 0.1mm when it was not pressed).
 Note that due to it requiring some time to check if it is tapped rather than long pressed, the "tap" key cannot be
 triggered immediately after you press the key.
 
-### 0.8.0 (2023-12-09)
+## v0.8.0
+
+> Released at 2023-12-09
 
 - New auto calibration strategy
 - Auto calibration is disabled by default, enable it in "Debug" tab
 - Add "Recalibrate" key ("Keymap"-"Extra"-"Calibrate"), bind it to any key you want, press it to redo the calibration
   step (same with "Reinitialize" in "Debug" tab)
 
-### 0.7.0 (2023-12-08)
+## v0.7.0
+
+> Released at 2023-12-08
 
 - Trying to avoid the problem of distance errors caused by pressing buttons when power-on calibration
 - Introduce auto calibration

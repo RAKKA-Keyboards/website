@@ -12,7 +12,6 @@ export const zh = defineConfig({
         sidebar: {
             '/zh-Hans/products/': {base: '/zh-Hans/products/', items: sidebarProducts()},
             '/zh-Hans/configurator/': {base: '/zh-Hans/configurator/', items: sidebarConfigurator()},
-            '/zh-Hans/changelog/': {base: '/zh-Hans/changelog/', items: sidebarChangelog()}
         },
 
         editLink: {
@@ -66,19 +65,7 @@ function nav(): DefaultTheme.NavItem[] {
                 }
             ]
         },
-        {
-            text: '更新日志',
-            items: [
-                {
-                    text: '配置器',
-                    link: '/zh-Hans/changelog/configurator'
-                },
-                {
-                    text: 'RAKKA 60',
-                    link: '/zh-Hans/changelog/rakka-60'
-                }
-            ]
-        },
+        {text: "更新日志", link: "/zh-Hans/changelog"},
         {
             text: "配置器",
             items: [
@@ -136,21 +123,6 @@ function sidebarConfigurator(): DefaultTheme.SidebarItem[] {
                         {text: '概览', link: 'overview'}
                     ]
                 }
-            ]
-        }
-    ]
-}
-
-function sidebarChangelog(): DefaultTheme.SidebarItem[] {
-    return [
-        {
-            text: '配置器', link: 'configurator'
-        },
-        {
-            text: '磁轴键盘',
-            collapsed: false,
-            items: [
-                {text: 'RAKKA 60', link: 'rakka-60'}
             ]
         }
     ]

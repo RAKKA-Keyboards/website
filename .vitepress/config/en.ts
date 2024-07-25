@@ -12,7 +12,6 @@ export const en = defineConfig({
         sidebar: {
             '/products/': {base: '/products/', items: sidebarProducts()},
             '/configurator/': {base: '/configurator/', items: sidebarConfigurator()},
-            '/changelog/': {base: '/changelog/', items: sidebarChangelog()}
         },
 
         editLink: {
@@ -42,19 +41,7 @@ function nav(): DefaultTheme.NavItem[] {
                 }
             ]
         },
-        {
-            text: 'Changelog',
-            items: [
-                {
-                    text: 'Configurator',
-                    link: '/changelog/configurator'
-                },
-                {
-                    text: 'RAKKA 60',
-                    link: '/changelog/rakka-60'
-                }
-            ]
-        },
+        {text: "Changelog", link: "/changelog"},
         {
             text: "Configurator",
             items: [
@@ -112,21 +99,6 @@ function sidebarConfigurator(): DefaultTheme.SidebarItem[] {
                         {text: 'Profile', link: 'overview'}
                     ]
                 }
-            ]
-        }
-    ]
-}
-
-function sidebarChangelog(): DefaultTheme.SidebarItem[] {
-    return [
-        {
-            text: 'Configurator', link: 'configurator'
-        },
-        {
-            text: 'HE Keyboards',
-            collapsed: false,
-            items: [
-                {text: 'RAKKA 60', link: 'rakka-60'}
             ]
         }
     ]
