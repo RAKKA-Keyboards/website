@@ -157,7 +157,7 @@ Since adding an under-switch foam while maintaining a 3.5mm spacing between the 
 
 ## Firmware changelog
 
-[Changelog](../changelog/rakka-60.html)
+[Changelog](../changelog/)
 
 ## Solution for firmware upgrade failure
 
