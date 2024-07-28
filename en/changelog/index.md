@@ -2,7 +2,19 @@
 
 If not otherwise noted, changes apply to all devices.
 
-## v0.17.0 <Badge type="danger" text="nightly" />
+## v1.0.0 <Badge type="warning" text="beta" />
+
+> Released at 2024-07-28
+
+- Added a new feature: Set two keys as a combination and select whether the two keys should be triggered in multiple rules; each profile can configure multiple different combinations
+
+## v0.18.0
+
+> Released at 2024-07-27
+
+- **[60 series]** Handling missed keys that affect each other
+
+## v0.17.0
 
 > Released at 2024-07-25
 
@@ -11,13 +23,7 @@ If not otherwise noted, changes apply to all devices.
 - Fix a problem with dynamic trigger distance being set very high (although it's unlikely anyone would actually set it that high)
 - The first change will inevitably consume computing power, but this update also includes other changes to improve responsiveness
 
-::: info
-
-If this update reaches stability, it will be worth making the major version number "1".
-
-:::
-
-## v0.16.3 <Badge type="warning" text="dev" />
+## v0.16.3
 
 > Released at 2024-07-19
 
