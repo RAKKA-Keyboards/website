@@ -2,6 +2,18 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## v1.0.1 <Badge type="danger" text="dev" />
+
+> Released at 2024-07-28
+
+- **[60 series]** Continue of "A new way to key readings more accurately" again
+
+::: info
+
+Because the previous version received a good response, we will temporarily put the previous version and this version on two separate channels to achieve coexistence.
+
+:::
+
 ## v1.0.0 <Badge type="warning" text="beta" />
 
 > Released at 2024-07-28
@@ -12,13 +24,13 @@ If not otherwise noted, changes apply to all devices.
 
 > Released at 2024-07-27
 
-- **[60 series]** Handling missed keys that affect each other
+- **[60 series]** Continue of "A new way to key readings more accurately"
 
 ## v0.17.0
 
 > Released at 2024-07-25
 
-- A new way to handle keys that affect each other
+- A new way to make key readings more accurately
 - Fix the problem where abnormal keys were sent when NKRO was manually disabled
 - Fix a problem with dynamic trigger distance being set very high (although it's unlikely anyone would actually set it that high)
 - The first change will inevitably consume computing power, but this update also includes other changes to improve responsiveness
