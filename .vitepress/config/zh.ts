@@ -20,7 +20,7 @@ export const zh = defineConfig({
         },
 
         footer: {
-            message: variant == "cn" ? '沪ICP备2023020656号-1' : undefined,
+            message: variant == "cn" ? '<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2023020656号-1</a>' : undefined,
             copyright: `版权所有 © 2022-${new Date().getFullYear()} RAKKA`
         },
 
