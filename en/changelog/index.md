@@ -2,23 +2,43 @@
 
 If not otherwise noted, changes apply to all devices.
 
-## v1.0.1 <Badge type="danger" text="dev" />
+## v1.1.0 <Badge type="warning" text="dev" />
+
+> Released at 2024-10-05
+
+- Improved processing speed
+- Distance readings no longer jump between 0.00mm and 0.02mm when idle
+- Adjusted auto calibration
+- Fixed issue where adjusting the "Standalone keymap" option would trigger profile switching
+
+## Configurator v2.0.0
+
+> Released at 2024-10-05
+
+- Significantly changed the interface layout to make it more logical (more changes will be made in the future)
+- New Keymap settings interface
+- New Advanced key settings interface
+- Show prompts if the window size is too small
+- Show shortcut keys for switching profiles based on the current keymap settings
+
+## v1.0.1 <Badge type="tip" text="stable" />
 
 > Released at 2024-07-28
 
 - **[60 series]** Continue of "A new way to key readings more accurately" again
 
-::: info
-
-Because the previous version received a good response, we will temporarily put the previous version and this version on two separate channels to achieve coexistence.
-
-:::
-
-## v1.0.0 <Badge type="warning" text="beta" />
+## v1.0.0
 
 > Released at 2024-07-28
 
 - Added a new feature: Set two keys as a combination and select whether the two keys should be triggered in multiple rules; each profile can configure multiple different combinations
+
+::: warning Prohibited in Counter Strike 2
+
+As of 2024-08-20, the "last input priority" feature has been prohibited by Counter Strike 2. This is because it is considered as automation.
+
+Please refer to [Counter Strike 2's announcement on Steam Community](https://store.steampowered.com/news/app/730/view/6500469346429600836).
+:::
 
 ## v0.18.0
 
@@ -80,7 +100,7 @@ This version contains many other internal changes. Before it is confirmed to be 
     - `↔ PF0`: Switch between the current profile and profile 0
     - `→ PF` `← PF`: Cycle through profiles in forward and reverse order
 
-## v0.15.6 <Badge type="tip" text="stable" />
+## v0.15.6
 
 > Released at 2024-05-07
 
