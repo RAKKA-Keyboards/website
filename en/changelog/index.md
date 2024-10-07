@@ -2,6 +2,30 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## v1.2.0 <Badge type="warning" text="dev" />
+
+> Released at 2024-10-08
+
+- Support more switches (experimental) <del>some parameters are actually the same for some switches</del>
+- Fix the problem that a complete recalibration is not triggered when changing switches
+
+> Note that some batches of keyboards use PC plates, 
+> which are fine when used with early batches of Magnetic Jade Switches 
+> and Magnetic White Switch.
+> However, the newer switches have thinner pins and cannot be fixed on the PCB.
+> When using a PC plate, the switch is equivalent to completely floating on the PCB,
+> which will cause serious false touch problems.
+> If necessary, please replace it with a FR4 material plate with screws.
+>
+> In addition, there is feedback that the same problem will occur 
+> if the user replaces the slotted plate on their own.
+
+## Configurator v2.1.0
+
+> Released at 2024-10-08
+
+- New Switch settings interface
+
 ## v1.1.0 <Badge type="warning" text="dev" />
 
 > Released at 2024-10-05
