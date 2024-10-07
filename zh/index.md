@@ -8,4 +8,7 @@ hero:
     - theme: brand
       text: 产品
       link: /zh-Hans/products/overview
+    - theme: alt
+      text: 配置器
+      link: /zh-Hans/configurator/overview
 ---

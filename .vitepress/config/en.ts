@@ -87,14 +87,14 @@ function sidebarConfigurator(): DefaultTheme.SidebarItem[] {
                 {text: 'Start', link: 'overview'},
                 {
                     text: 'Keymap',
-                    base: '/zh/configurator/keymap/',
+                    base: '/configurator/keymap/',
                     items: [
                         {text: 'Overview', link: 'overview'}
                     ]
                 },
                 {
                     text: 'Profile',
-                    base: '/zh/configurator/profile/',
+                    base: '/configurator/profile/',
                     items: [
                         {text: 'Profile', link: 'overview'}
                     ]

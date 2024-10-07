@@ -8,4 +8,7 @@ hero:
     - theme: brand
       text: Products
       link: /products/overview
+    - theme: alt
+      text: Configurator
+      link: /configurator/overview
 ---
