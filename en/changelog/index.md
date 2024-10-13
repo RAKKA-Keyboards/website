@@ -2,6 +2,35 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## v1.2.1 <Badge type="warning" text="dev" />
+
+> Released on 2024-10-08
+
+- Continue of "A new way to key readings more accurately"
+
+::: warning "A new way to make button readings more accurate" since v0.18.0 also requires the switch to be stably mounted
+
+This change mainly solves the problem that pressing a key will cause abnormal changes in the readings of related keys (usually surrounding keys).
+However, if the switch cannot be stably mounted on the PCB, this change will have the opposite effect, such as more abnormal resets.
+
+If you encounter this phenomenon, please check whether the switch is installed correctly.
+
+:::
+
+## Configurator v2.1.2
+
+> Released on 2024-10-08
+
+- Fixed the problem that the switch cannot be set for devices with very low firmware versions (before 2024-07-11, which does not support setting the switch individually)
+
+## Configurator v2.1.1
+
+> Released on 2024-10-08
+
+- Fixed the problem that errors will occur when setting the switch in batches
+
+- Fixed the background error of some new interfaces in dark mode
+
 ## v1.2.0 <Badge type="warning" text="dev" />
 
 > Released at 2024-10-08
