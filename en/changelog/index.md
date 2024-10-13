@@ -2,9 +2,21 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## v1.3.0 <Badge type="warning" text="dev" />
+
+> Released on 2024-10-13
+
+- Solves the problem that after pressing a key hard, abnormal distance readings will occur when pressing the key again with normal force, by adding an extra manual calibration step
+
+## Configurator v2.2.0
+
+> Released on 2024-10-13
+
+- Adapt firmware v1.3.0 changes
+
 ## v1.2.1 <Badge type="warning" text="dev" />
 
-> Released on 2024-10-08
+> Released on 2024-10-13
 
 - Continue of "A new way to key readings more accurately"
 
