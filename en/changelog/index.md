@@ -2,7 +2,7 @@
 
 If not otherwise noted, changes apply to all devices.
 
-## v1.3.0 <Badge type="warning" text="dev" />
+## v1.3.0 <Badge type="tip" text="stable" />
 
 > Released on 2024-10-13
 
@@ -14,7 +14,7 @@ If not otherwise noted, changes apply to all devices.
 
 - Adapt firmware v1.3.0 changes
 
-## v1.2.1 <Badge type="warning" text="dev" />
+## v1.2.1
 
 > Released on 2024-10-13
 
@@ -43,7 +43,7 @@ If you encounter this phenomenon, please check whether the switch is installed c
 
 - Fixed the background error of some new interfaces in dark mode
 
-## v1.2.0 <Badge type="warning" text="dev" />
+## v1.2.0
 
 > Released at 2024-10-08
 
@@ -70,7 +70,7 @@ if the user replaces the slotted plate on their own.
 
 - New Switch settings interface
 
-## v1.1.0 <Badge type="warning" text="dev" />
+## v1.1.0
 
 > Released at 2024-10-05
 
@@ -89,7 +89,7 @@ if the user replaces the slotted plate on their own.
 - Show prompts if the window size is too small
 - Show shortcut keys for switching profiles based on the current keymap settings
 
-## v1.0.1 <Badge type="tip" text="stable" />
+## v1.0.1
 
 > Released at 2024-07-28
 
