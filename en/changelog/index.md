@@ -2,6 +2,14 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## Configurator v2.3.0
+
+> Released 2024-10-27
+
+- Fix an issue where the value of "Standalone keymap" option is not displayed correctly
+- Add some hint
+- Adapt changes of unreleased devices
+
 ## v1.3.0 <Badge type="tip" text="stable" />
 
 > Released on 2024-10-13
