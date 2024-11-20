@@ -2,6 +2,44 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## Configurator v2.5.0
+
+> Released on 2024-11-20
+
+- Added a tool for self-investigation or reporting issues related to chattering and missed keystrokes
+- Added a tool for general-purpose key testing
+- Modified some hints
+
+## v1.4.1 <Badge type="tip" text="beta" />
+
+> Released on 2024-11-15
+
+- Fixed an issue in the previous version where pressing one key could unintentionally affect another
+
+## Configurator v2.4.0
+
+> Released on 2024-11-15
+
+- Fixed an issue where the key assigned for switching profiles was sometimes displayed incorrectly
+- Adapted to changes introduced in firmware version 1.4.0
+- The icon font now includes only the icons used, significantly reducing download size
+
+## v1.4.0 <Badge type="tip" text="beta" />
+
+> Released on 2024-11-15
+
+- Fixed an issue where the current file would reset after a power cycle
+- Fully implemented RGB-related features (though the current 60 series only has a single LED, so the functionality is less noticeable)
+- **[60 Series]** Minimum resolution improved to 0.01mm; fast trigger settings now have a minimum of 0.02mm (previously 0.02mm and 0.04mm)
+
+::: tip Regarding Performance Parameters
+
+Although as of now (November 2024), the advertised parameters of our current products may not match those of some competing products, all of our advertised specifications are accurate and free of false claims or marketing tricks (for example, some products advertise specifications that are only valid within a specific pressing range).
+
+You may also look forward to our new products launching between late 2024 and early 2025, which will feature significantly improved performance parameters.
+
+:::
+
 ## Configurator v2.3.0
 
 > Released 2024-10-27
