@@ -2,6 +2,24 @@
 
 If not otherwise noted, changes apply to all devices.
 
+## v1.5.0 <Badge type="tip" text="beta" />
+
+> Released on 2024-11-20
+
+- **[60 Series]** Minimum resolution improved to 0.01mm; Rapid Trigger settings now have a minimum of 0.02mm (previously 0.02mm and 0.04mm)
+- Fixed an issue in version 1.4.0 where pressing one key could unintentionally affect another
+- If the Rapid Trigger is set too low and "Manual bottom calibration" has not been performed, the effective value will be limited to 0.05mm (this is not currently indicated in the configurator, and the limit may be adjusted in the future)
+- Fixed an issue where current profile would reset after power down
+- Fully implemented RGB-related features (though the current 60 series only has a single LED, so the functionality is less noticeable)
+
+::: tip Statement on Performance Parameters
+
+We always guarantee that all our advertised specifications are accurate and valid, with no false claims or marketing tricks. There will never be scenarios where advertised precision is only valid at specific pressing distances, or misleading statements like claiming an 8000Hz polling rate equates to 0.125ms latency.
+
+You may also look forward to our new products launching between late 2024 and early 2025, which will feature significantly improved performance parameters.
+
+:::
+
 ## Configurator v2.5.0
 
 > Released on 2024-11-20
@@ -9,36 +27,9 @@ If not otherwise noted, changes apply to all devices.
 - Added a tool for self-investigation or reporting issues related to chattering and missed keystrokes
 - Added a tool for general-purpose key testing
 - Modified some hints
-
-## v1.4.1 <Badge type="tip" text="beta" />
-
-> Released on 2024-11-15
-
-- Fixed an issue in the previous version where pressing one key could unintentionally affect another
-
-## Configurator v2.4.0
-
-> Released on 2024-11-15
-
 - Fixed an issue where the key assigned for switching profiles was sometimes displayed incorrectly
-- Adapted to changes introduced in firmware version 1.4.0
 - The icon font now includes only the icons used, significantly reducing download size
-
-## v1.4.0 <Badge type="tip" text="beta" />
-
-> Released on 2024-11-15
-
-- Fixed an issue where the current file would reset after a power cycle
-- Fully implemented RGB-related features (though the current 60 series only has a single LED, so the functionality is less noticeable)
-- **[60 Series]** Minimum resolution improved to 0.01mm; fast trigger settings now have a minimum of 0.02mm (previously 0.02mm and 0.04mm)
-
-::: tip Regarding Performance Parameters
-
-Although as of now (November 2024), the advertised parameters of our current products may not match those of some competing products, all of our advertised specifications are accurate and free of false claims or marketing tricks (for example, some products advertise specifications that are only valid within a specific pressing range).
-
-You may also look forward to our new products launching between late 2024 and early 2025, which will feature significantly improved performance parameters.
-
-:::
+- Adapted to changes introduced in the latest firmware version
 
 ## Configurator v2.3.0
 
